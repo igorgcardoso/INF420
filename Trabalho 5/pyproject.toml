@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "trabalho 5"
+version = "0.1.0"
+description = ""
+authors = ["Igor Cardoso <igorgcardoso7@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+ipython = "^7.23.1"
+jupyter = "^1.0.0"
+tensorflow = "^2.4.1"
+nltk = "^3.6.2"
+gensim = "^4.0.1"
+scikit-learn = "^0.24.2"
+matplotlib = "^3.4.2"
+pandas = "^1.2.4"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
